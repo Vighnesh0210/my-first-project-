@@ -1,0 +1,19 @@
+public class TypecastingExample {
+    public static void main(String[] args) {
+        // Implicit typecasting (widening)
+        int intValue = 10;
+        double doubleValue = intValue; // int to double
+
+        System.out.println("Implicit typecasting:");
+        System.out.println("int value: " + intValue);
+        System.out.println("double value: " + doubleValue);
+
+        // Explicit typecasting (narrowing)
+        double doubleNum = 20.5;
+        int intNum = (int) doubleNum; // double to int
+
+        System.out.println("\nExplicit typecasting:");
+        System.out.println("double value: " + doubleNum);
+        System.out.println("int value: " + intNum);
+    }
+}
